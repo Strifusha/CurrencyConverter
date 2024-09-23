@@ -1,0 +1,21 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  font-size: 50px;
+  animation: spinY 1s linear infinite;
+  transform-origin: center; 
+}
+
+@keyframes spinY {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

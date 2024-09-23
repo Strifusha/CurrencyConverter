@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+}
+
+.rate {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rate span {
+  color: #007bff;
+  margin-right: 5px;
+}
+
+.inputsWrapper {
+  display: flex;
+  padding: 30px 0;
+}

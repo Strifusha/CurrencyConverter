@@ -1,0 +1,43 @@
+.inputWrapper {
+  height: 80px;
+  width: 50%;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.inputWrapper:focus-within {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.currencyInput {
+  padding: 20px ;
+  width: 50%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+/* Remove arrows for Chrome, Safari, Edge, Opera */
+.currencyInput::-webkit-outer-spin-button,
+.currencyInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.currencyInput[type='number'] {
+  -moz-appearance: textfield;
+}
+
+
+.currencySelect {
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
